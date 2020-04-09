@@ -64,3 +64,10 @@ class Student {
             return credits
         }
 }
+class Faculty{
+    List<Student> students = new ArrayList<>();
+    String facultyName;
+    public addStudent(Student std){
+        students(std).add;
+    }
+}
